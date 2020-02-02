@@ -1,7 +1,7 @@
 [personal details]
 Name = Amit
-Age = 44
+Age=44
 
 [official details]
-CompanyName = Amazon
+Company = NameAmazon
 City = NewYork
