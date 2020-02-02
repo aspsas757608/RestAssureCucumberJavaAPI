@@ -1,0 +1,6 @@
+[default]
+Host = bc.yahoo.com
+Port = -1
+Scheme = https
+User = amit
+Password = amit@123
