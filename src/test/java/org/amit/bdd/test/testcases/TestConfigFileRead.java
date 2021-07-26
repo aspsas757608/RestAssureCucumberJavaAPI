@@ -11,9 +11,9 @@ public class TestConfigFileRead {
 
     @Test
     public void testReadConfifFile(){
-        Map m1 = ReadConfiFiles.letsReadConfiFile("/Users/amitsaxena/IdeaProjects/RestAssureCucumberJavaAPI/configFiles/","configPropertiesFile");
-        List l1 = ReadConfiFiles.getAllPropertyNames("/Users/amitsaxena/IdeaProjects/RestAssureCucumberJavaAPI/configFiles/","testDataFile","official details");
-        Map m2 = ReadConfiFiles.getAllPropertyAndValues("/Users/amitsaxena/IdeaProjects/RestAssureCucumberJavaAPI/configFiles/","testDataFile","official details");
+        Map m1 = ReadConfiFiles.letsReadConfiFile("C:\\study\\gitrepo\\RestAssureCucumberJavaAPI\\configFiles\\","configPropertiesFile");
+        List l1 = ReadConfiFiles.getAllPropertyNames("C:\\study\\gitrepo\\RestAssureCucumberJavaAPI\\configFiles\\","testDataFile","official details");
+        Map m2 = ReadConfiFiles.getAllPropertyAndValues("C:\\study\\gitrepo\\RestAssureCucumberJavaAPI\\configFiles\\","testDataFile","official details");
         String hostAddress = ReadConfiFiles.getValueOfGivenSectionAndProperty("/Users/amitsaxena/IdeaProjects/RestAssureCucumberJavaAPI/configFiles/","testDataFile","official details","City");
 
         System.out.println(m1);
